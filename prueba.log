@@ -1,3 +1,5 @@
 Archivo: prueba.cpp
-05/09/2022 09:33:35 a. m.
-Error de sintaxis, variable duplicada <a> en linea: 5
+06/09/2022 09:48:04 a. m.
+
+a = 3 5 + 8 * 10 4 - 2 / - = 61
+Error de sintaxis, variable no Existe <cafe> en linea: 14
