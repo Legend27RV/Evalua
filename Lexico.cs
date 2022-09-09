@@ -288,10 +288,8 @@ namespace Evalua
                     }
                     if (estado >0)
                     {
-                        if(c!='"')
-                        {
-                            buffer += c;
-                        }
+                        
+                        buffer += c;
                         
                     }
                     else
