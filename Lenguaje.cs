@@ -236,7 +236,7 @@ namespace Evalua
             match("(");
             Condicion();
             match(")");
-             if (getContenido() == "{") 
+            if(getContenido() == "{") 
             {
                 BloqueInstrucciones();
             }
@@ -292,7 +292,7 @@ namespace Evalua
             if(existeVariable(getContenido()))
             {
                 match(Tipos.Identificador);
-                if(getContenido() == "+")
+                if(getContenido() == "++")
                 {
                     match("++");
                     modVariable(variable,getValor(variable)+1);
@@ -401,7 +401,9 @@ namespace Evalua
             match("(");
             if(getClasificacion()==Tipos.Cadena)
             {
-                Console.Write(getContenido().Replace( "\"",""));
+                string nombre=getContenido().Replace( "\\n","\n");
+                nombre=nombre.Replace( "\\t","\t");
+                Console.Write(nombre.Replace( "\"",""));
                 match(Tipos.Cadena);
             }
             else

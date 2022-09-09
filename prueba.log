@@ -1,14 +1,17 @@
 Archivo: prueba.cpp
-08/09/2022 10:29:36 a. m.
+09/09/2022 10:09:21 a. m.
 
-x = 10 = 10
-3 5 + 8 * x 4 - 2 / - Variables: 
+pi = 3.141592653589793 = 3.1415927
+
+d = 4 = 4
+
+area = pi radio radio * * = 3.1415927
+area 
+d = 10 = 10
+d 20 Variables: 
+area Float 3.1415927
+radio Float 1
+pi Float 3.1415927
 resultado Float 0
 a Int 0
-b Int 0
-c Int 0
-d Int 0
-opcion Char 0
-radio Float 0
-altura Float 0
-x Float 10
+d Int 11
